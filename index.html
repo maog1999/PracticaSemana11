@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+        <div id="publicar">
+            <input id="nombre" placeholder="Escribe tu nombre de usuario" type="text">
+            <input id="publicacion" placeholder="Escribe tu publicación" type="text">
+            <button class="btnsGeneral" id="btnPublicar">Publicar</button>
+        </div>
+
+        <!-- Espacios para publicaciones-->
+        <h1 id="texto">Feed News</h1>
+        <div id="publicacionesContainer">
+            <h1>Feed News</h1>
+
+
+        </div>
+
+    </body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCF6ATxZ9CmUXNm2weYY4PF-GeVTg6z1MY",
+    authDomain: "practicasemana11-c5381.firebaseapp.com",
+    projectId: "practicasemana11-c5381",
+    storageBucket: "practicasemana11-c5381.appspot.com",
+    messagingSenderId: "1064466863529",
+    appId: "1:1064466863529:web:f745d7b7ebf4c07fd2a0b8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const database = firebase.database();
+</script>
+
+    <script src="JS/publicacionView.js"></script>
+    <script src="JS/index.js"></script>
+
+</html>

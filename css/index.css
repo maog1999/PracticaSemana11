@@ -1,0 +1,37 @@
+#publicar{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #e7d4af;
+    border-radius: 10px;
+}
+#publicar *{
+    width: 60%;
+    margin: 10px;
+}
+#publicacion {
+    height: 60px;
+    
+}
+#texto {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#publicacionesContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #e7d3af;
+    border-radius: 10px;
+padding: 10px;
+}
+
